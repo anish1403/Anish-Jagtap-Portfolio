@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Anish Jagtap - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Sytle.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar">
+
+    <h2>Anish Jagtap</h2>
+    <p class="role">Full Stack Developer</p>
+
+    <div class="info">
+      <p><strong>Email:</strong><br>anishjagtap1234@gmail.com</p>
+      <p><strong>Phone:</strong><br>7028080078</p>
+      <p><strong>Location:</strong><br>India</p>
+    </div>
+
+  </aside>
+
+  <!-- RIGHT MAIN CONTENT -->
+  <main class="main-content">
+
+    <!-- Navigation Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="about">About</button>
+      <button class="tab-btn" data-tab="projects">Projects</button>
+      <button class="tab-btn" data-tab="contact">Contact</button>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="tab-content active">
+  <h3>About Me</h3>
+  <p>
+    I am a third-year Electrical and Computer Engineering student at MIT-WPU, Pune, with strong interests in power systems, electric vehicles, and applied electrical engineering. I am particularly interested in battery technology, motor control, charging systems, and the practical aspects of EV infrastructure. I enjoy understanding systems from first principles — from torque and power calculations to energy efficiency and real-world performance limitations.
+  </p>
+
+  <h4>Skills</h4>
+  <div class="skills">
+    <span>Simulink</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>MATLAB</span>
+  </div>
+</section>
+
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="tab-content">
+      <h3>Projects</h3>
+
+      <div class="project-card">
+        <h4>Portfolio Website</h4>
+        <p>Responsive portfolio website developed using HTML, CSS, and JavaScript.</p>
+      </div>
+
+      <div class="project-card">
+        <h4>Student Database System</h4>
+        <p>C-based application for efficient student record management.</p>
+      </div>
+
+      <div class="project-card">
+        <h4>Design a BMS</h4>
+        <p>MATLAB-based simulation model to analyze electric vehicles battery showcasing passive cell balancing.</p>
+      </div>
+
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="tab-content">
+      <h3>Contact Me</h3>
+
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+        <p id="errorMsg"></p>
+      </form>
+
+    </section>
+
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
